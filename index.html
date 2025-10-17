@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тугай Роман - Скульптор</title>
+    <meta name="description" content="Портфолио скульптора Тугай Роман. Скульптуры, выставки и публикации.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <nav class="nav nav--right">
+            <a href="#home" class="nav__link nav__link--active">Главная</a>
+            <a href="#about" class="nav__link">Обо мне</a>
+            <a href="#sculptures" class="nav__link">Скульптуры</a>
+            <a href="#news" class="nav__link">Новости</a>
+            <a href="#contacts" class="nav__link">Контакты</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero hero--oblique" id="home">
+        <div class="hero-bg-overflow"></div>
+        <div class="hero__content hero__content--right">
+            <h1 class="hero__title fade-in">Тугай<br>Роман</h1>
+            <p class="hero__subtitle fade-in-delay-1">Тут будет крутая подпись</p>
+            <div class="hero__scroll fade-in-delay-2">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about about--oblique" id="about">
+        <div class="about-bg-overflow"></div>
+        <div class="container">
+            <div class="about__content scroll-reveal">
+                <div class="about__text">
+                    <h2 class="section__title">Обо мне</h2>
+                    <p class="about__description">
+                        Приветствую вас на моей персональной странице художника-скульптора. Ведущая тематика моих работ связана с изобразительной архаизацией. Это самая очевидная и явственная форма творчества. Ведущие темы моих работ: "Сон Поликлеса", "Театр одного актера", "Терем ит вития". 
+                        Самореализация оставшейся истории позволила мне развивать наивность одного из элементов основных инструментов моего творчества. Это также проявляет важный след в моем творчестве.
+                    </p>
+                    <button class="btn btn--primary" data-action="about-more">Подробнее</button>
+                </div>
+                <div class="about__image">
+                    <img src="img/about1.jpg" alt="Tugay Roman" class="about__photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sculptures Section -->
+    <section class="sculptures sculptures--oblique" id="sculptures">
+        <div class="sculptures-bg-overflow"></div>
+        <div class="container">
+            <h2 class="section__title section__title--light scroll-reveal">Скульптуры</h2>
+            <p class="sculptures__intro scroll-reveal">
+                Современная история искусства значительно обогащалась приемами абстрактного искусства. Это значительное влияние того достижения, его изобретательным исследователям. Использованная в их делах принципиальная философия определила современный критерий индивидуальности мастерства. Вашему вниманию, его исследовательскому движению "Зел".
+            </p>
+            <div class="sculptures__grid">
+                <div class="sculpture__card scroll-reveal">
+                    <img src="img/work1.jpg" alt="Sculpture 1">
+                </div>
+                <div class="sculpture__card scroll-reveal">
+                    <img src="img/work2.jpg" alt="Sculpture 2">
+                </div>
+                <div class="sculpture__card scroll-reveal">
+                    <img src="img/work3.jpg" alt="Sculpture 3">
+                </div>
+            </div>
+            <div class="sculptures__actions">
+                <button class="btn btn--secondary" data-action="sculptures-more">Смотреть ещё</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- News/Exhibitions Section -->
+    <section class="news news--oblique" id="news">
+        <div class="news-bg-overflow"></div>
+        <div class="container">
+            <h2 class="section__title scroll-reveal">Выставки и публикации</h2>
+            <p class="news__intro scroll-reveal">
+                Современная история искусства значительно обогащалась архаическими церемониями и ритуалами ваших достижений тою ведущим мэтром принципиальной философии определила современный критерий индивидуальности мастерства. Вашему вниманию, его исследовательскому движению "Зел".
+            </p>
+            <div class="news__grid">
+                <div class="news__card scroll-reveal">
+                    <div class="news__card-image">
+                        <img src="img/news1.jpg" alt="Exhibition 1">
+                    </div>
+                    <div class="news__card-content">
+                        <h3 class="news__card-title">Выставка "МакроМакро #09"</h3>
+                        <p class="news__card-text">
+                            Современная история искусства значительно обогащалась их изобразительным исследованиям на сайте "Школы культурных изысканий"
+                        </p>
+                    </div>
+                </div>
+                <div class="news__card scroll-reveal">
+                    <div class="news__card-image">
+                        <img src="img/news2.jpg" alt="Exhibition 2">
+                    </div>
+                </div>
+                <div class="news__card scroll-reveal">
+                    <div class="news__card-image">
+                        <img src="img/news3.jpg" alt="Exhibition 3">
+                    </div>
+                </div>
+            </div>
+            <div class="news__actions">
+                <button class="btn btn--secondary" data-action="news-more">Смотреть ещё</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contacts contacts--oblique" id="contacts">
+        <div class="contacts-bg"></div>
+        <div class="container">
+            <div class="contacts__content">
+                <div class="contacts__info scroll-reveal">
+                    <h2 class="section__title">Контакты</h2>
+                    <p class="contacts__description">
+                        Интересуетесь мои произведением? Это точно очевидный подразумевалось. Просто укажите ниже свое сообщение пожелание характеристику или аргумент для возможности мне обратно связаться с Вами и я сразу свяжусь характеристику.
+                    </p>
+                    <div class="contacts__social">
+                        <a href="https://wa.me/79999657632" class="social-link" target="_blank" rel="noopener">
+                            <img src="icons/icon-whatsapp.svg" alt="WhatsApp">
+                            <span>+79999657632</span>
+                        </a>
+                        <a href="https://vk.com/username" class="social-link" target="_blank" rel="noopener">
+                            <img src="icons/icon-vk.svg" alt="VK">
+                            <span>vk.com/username</span>
+                        </a>
+                        <a href="https://facebook.com/username" class="social-link" target="_blank" rel="noopener">
+                            <img src="icons/icon-facebook.svg" alt="Facebook">
+                            <span>facebook.com/username</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contacts__form-wrapper scroll-reveal">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input 
+                                type="text" 
+                                name="name" 
+                                class="form-input" 
+                                placeholder="Ваше имя" 
+                                required
+                            >
+                        </div>
+                        <div class="form-group">
+                            <input 
+                                type="email" 
+                                name="email" 
+                                class="form-input" 
+                                placeholder="Эл. почта" 
+                                required
+                            >
+                        </div>
+                        <div class="form-group">
+                            <textarea 
+                                name="message" 
+                                class="form-textarea" 
+                                placeholder="Ваше сообщение" 
+                                rows="5" 
+                                required
+                            ></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer footer--oblique">
+        <div class="footer-bg"></div>
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__nav">
+                    <h4 class="footer__title">Навигация</h4>
+                    <ul class="footer__links">
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#about">Обо мне</a></li>
+                        <li><a href="#sculptures">Скульптуры</a></li>
+                        <li><a href="#news">Новости</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contact">
+                    <h4 class="footer__title">Контактная информация</h4>
+                    <div class="footer__contact-item">
+                        <img src="icons/icon-phone.svg" alt="Phone">
+                        <span>+7 (999) 965-76-32</span>
+                    </div>
+                    <div class="footer__contact-item">
+                        <img src="icons/icon-email.svg" alt="Email">
+                        <span>roman.tugay@gmail.com</span>
+                    </div>
+                </div>
+                <div class="footer__social">
+                    <h4 class="footer__title">Соц. сети</h4>
+                    <div class="footer__social-links">
+                        <a href="https://wa.me/79999657632" target="_blank" rel="noopener">
+                            <img src="icons/icon-whatsapp.svg" alt="WhatsApp">
+                        </a>
+                        <a href="https://vk.com/username" target="_blank" rel="noopener">
+                            <img src="icons/icon-vk.svg" alt="VK">
+                        </a>
+                        <a href="https://facebook.com/username" target="_blank" rel="noopener">
+                            <img src="icons/icon-facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="https://instagram.com/tugayan.roman" target="_blank" rel="noopener">
+                            <img src="icons/icon-instagram.svg" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Тугай Роман. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
